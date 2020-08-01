@@ -24,11 +24,33 @@ function operation(x,operator,y)
     case '/'
     retuen divide(x/y)
 }}
-function operation button.for forEach
-(operation)
-if (operation.id= reset)[
-    operation.onclick=>{
-        operating=truegit
-        
+function calculator(calc){//perform a calculation as an arrayof operators and numbers.}
+var operators=[{'*': (a,b)=> 'a*b';'/':(a,b)=>'a/b','-':(a,b)=>'a-b','+'(a,b)=>'a+b'
+}]
+New calculator=[]
+currentoperation;
+for(var i=0; i<operatorslength;i){
+    for (var j=0; j< calc.length;j){
+        if operator[i][calc[j]];
+        else if (currentOp){
+            new calc{Newcalc.length -1]= current operator(New Calc[New Calc.length-]calc [j])
+            currentOp=null;
+        }
+        else{New calc.push(calc[j])
+        }
+        console.log(NewCalc);
+        }
+        calc=New calculation;
+        New calculation=[];
     }
-]
+if (calc.length>1){
+    console.log(error)
+    return calc;
+}else {return calc{0};}
+}
+var calculatorButton=document.getElementById(calculator),
+user Input=document.getElementById(userInput),
+result=document.getElementById(result);
+calculaeButton.addEventListener('click',function() {
+    result.InnerHtml='the answer is';
+})
